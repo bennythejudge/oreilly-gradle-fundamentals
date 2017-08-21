@@ -1,0 +1,11 @@
+ext.person = "benedetto"
+
+task hello {
+  doLast {
+    println 'Hello $person!'
+  }
+}
+
+task hi << {
+  println 'Hello, World!!!'
+}
