@@ -1,7 +1,11 @@
+// POGOs not POJOs
+
 import groovy.transform.*
-@ToString
-@EqualsAndHashCode
-@TupleConstructor
+//@ToString
+//@EqualsAndHashCode
+//@TupleConstructor
+// all of the above in one entry:
+@Canonical
 
 class Person {
     String first
