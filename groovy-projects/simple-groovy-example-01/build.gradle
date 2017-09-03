@@ -1,0 +1,14 @@
+apply plugin: 'eclipse'
+// "and that's basically it..."
+apply plugin: 'groovy'
+// groovy plugin contains the java plugin
+
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.10'
+    testCompile 'junit:junit:4.12'
+}
